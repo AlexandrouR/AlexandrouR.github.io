@@ -1,0 +1,64 @@
+site_name: 'Web3j'
+site_description: 'Documentation portal for the Web3j Blockchain Library'
+site_author: 'Web3 Labs'
+site_url: 'https://www.web3labs.com'
+
+repo_name: 'web3j/web3j'
+repo_url: 'https://github.com/web3j/web3j/blob/master/docs/source/'
+
+# Copyright
+copyright: 'Copyright &copy; 2017-2019 Web3 Labs Ltd'
+
+nav:
+- 'Quickstart.md'
+- 'Getting Started.md'
+- 'Modules.md'
+- 'Transactions.md'
+- 'Smart Contracts.md'
+- 'Application Binary Interface.md'
+- 'Recursive Length Prefix.md'
+- 'Filters And Events.md'
+- 'Command Line Tools.md'
+- 'Managment Apis.md'
+- 'Using Infura with Web3j.md'
+- 'Ethereum Name Service.md'
+- 'Contracts Supported by Web3j.md'
+- 'Troubleshooting.md'
+- 'Projects Using Web3j.md'
+- 'Companies Using Web3j.md'
+- 'Developer Guide.md'
+- 'Links and Useful Resources.md'
+- 'Thanks and Credits.md'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'orange'
+    accent: 'indigo'
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://github.com/web3j'
+    - type: 'twitter'
+      link: 'https://twitter.com/web3labs'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/web3labs'
+
+# Google Analytics
+google_analytics:
+  - 'UA-132980710-2'
+  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - pymdownx.details
+  - toc:
+      permalink: true
+      toc_depth: 3
